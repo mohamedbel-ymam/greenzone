@@ -1,0 +1,126 @@
+body {
+  background-color:  black;
+  position: relative;
+}
+#pseudo-wrap1{
+  background: linear-gradient(180deg, #81bc00, #8fc800);
+  width: 100%;
+  height: 200px;
+  position: absolute;
+}
+#pseudo-wrap2{
+  background: linear-gradient(180deg, #86b303, #171f01);
+  width: 100%;
+  height: 200px;
+  top: 200px;
+  position: absolute;
+}
+#wrap {
+  background-color: white;
+  margin: auto;
+  width: 80%;
+  position: relative;
+  top: 100px;
+  padding: 10px;
+}
+#header {
+  background-color: #81bc00;
+  margin: auto;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  
+}
+#header h1 a {
+  color: white;
+  text-align: center;
+}
+#menu {
+  display: flex;
+  justify-content: center;
+  background-image: linear-gradient(#c5d9a4,white);
+  padding: 5px;
+  margin-top: 0px;
+}
+#menu li {
+  display: inline-block;
+}
+#menu li a {
+  margin-right: 30px;
+  font-size: large;
+  color: black;
+  text-decoration: none;
+}
+#menu li a:hover {
+  background-color: white;
+}
+.Symb{color: #4fa601;font-size: 2em; padding: 3px;}
+.post h2 {
+  margin-top: 0%; font-size: 1.5em;
+}
+.post h2 a {
+  color: black;
+  text-decoration: none;
+}
+.author {
+  color: black;
+}
+.author a {
+  color: gray;
+}
+#content {
+  margin: auto;width: 90%;
+}
+#content blockquote p {
+  color: #78a323;
+  margin: 20px;
+  font-size: 1.5em;
+}
+#content p a {
+  color: #4fa601;
+}
+#content h3 {
+  color: #4fa601;
+}
+#content ol li a {
+  color: #669900;
+}
+#content ul li div{color: #669900;display: inline-block;}
+#content ul li{list-style: none;}
+#content ul li a{
+  color: #669900;
+}
+
+
+#footer {
+  background-color: #4fa601; padding: 15px;
+}
+.notice {
+  color: white;
+  text-align: center;
+}
+.notice a {
+  color: white;
+  list-style: none;
+}
+#attribution {
+  background-color: black;
+  text-align: center;
+  display: flex;justify-content: center;
+  position: relative;
+  top: 100px;
+
+}
+#attribution a {
+  color: #4fa601;
+  
+}
+p{font-size: 1.3em;}
+@media only screen and (max-width:700px){
+
+#menu{font-size: 2em;}
+}
+
+
+
+
